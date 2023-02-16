@@ -155,11 +155,11 @@ main {
 }
 
 .dice {
-    height:1vh;
+    height:2.5vh;
 }
 
 .placeholder-dice {
-    height:2.5vh;
+    height:1vh;
 }
 
 @media(min-width:550px){
