@@ -50,7 +50,7 @@ function endGame() {
                     <h2>Game Over</h2> 
                     <h3>${endMessage}</h3>
                     <p class="end-emoji">${endEmoji}</p>
-                    <button id="end-game-btn">Restart</button>
+                    <button id="end-game-btn">Restart Game</button>
                 </div>
                 `
         }, 1500)
@@ -64,8 +64,6 @@ document.addEventListener('click', (e) => {
         location.reload()
     }
 })
-// document.getElementById("attack-button").addEventListener('click', attack)
-// document.getElementById("end-game-btn").addEventListener('click', endBtn)
 
 function render() {
     document.getElementById('hero').innerHTML = wizard.getCharacterHtml()
