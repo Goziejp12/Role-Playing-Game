@@ -145,8 +145,8 @@ main {
 }
 
 .dice, .placeholder-dice{
-    height:3.5vh;
-    width:5.5vh;
+    height:2.5vh;
+    width:2.5vh;
     background: #fff;   
     border-radius: 5px;
     border:1px solid #666;
