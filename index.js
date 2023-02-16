@@ -50,13 +50,22 @@ function endGame() {
                     <h2>Game Over</h2> 
                     <h3>${endMessage}</h3>
                     <p class="end-emoji">${endEmoji}</p>
-                    <button>Restart</button>
+                    <button id="end-game-btn">Restart</button>
                 </div>
                 `
         }, 1500)
 }
 
-document.getElementById("attack-button").addEventListener('click', attack)
+document.addEventListener('click', (e) => {
+    if (e.target.id === "attack-button"){
+        attack()
+    }
+    else if (e.target.id === "end-game-btn"){
+        location.reload()
+    }
+})
+// document.getElementById("attack-button").addEventListener('click', attack)
+// document.getElementById("end-game-btn").addEventListener('click', endBtn)
 
 function render() {
     document.getElementById('hero').innerHTML = wizard.getCharacterHtml()
