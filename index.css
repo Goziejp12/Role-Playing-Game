@@ -138,14 +138,14 @@ main {
 
 @media(min-width:550px){
     .dice-container {
-        height: 20%;
+        height: 10%;
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
     }
 }
 
 .dice, .placeholder-dice{
-    height:5.5vh;
+    height:3.5vh;
     width:5.5vh;
     background: #fff;   
     border-radius: 5px;
