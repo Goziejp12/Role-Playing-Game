@@ -145,7 +145,6 @@ main {
 }
 
 .dice, .placeholder-dice{
-    height:2.5vh;
     width:2.5vh;
     background: #fff;   
     border-radius: 5px;
@@ -153,6 +152,14 @@ main {
     color:#000721;
     text-align: center;
     line-height: 6vh;
+}
+
+.dice {
+    height:1vh;
+}
+
+.placeholder-dice {
+    height:2.5vh;
 }
 
 @media(min-width:550px){
