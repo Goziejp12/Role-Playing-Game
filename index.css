@@ -145,21 +145,14 @@ main {
 }
 
 .dice, .placeholder-dice{
-    width:2.5vh;
+    height:3.5vh;
+    width:3.5vh;
     background: #fff;   
     border-radius: 5px;
     border:1px solid #666;
     color:#000721;
     text-align: center;
     line-height: 6vh;
-}
-
-.dice {
-    height:2.5vh;
-}
-
-.placeholder-dice {
-    height:1vh;
 }
 
 @media(min-width:550px){
